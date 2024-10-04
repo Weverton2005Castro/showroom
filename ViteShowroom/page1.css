@@ -1,0 +1,186 @@
+.v2 {
+    width: 30vh;
+    animation: slideInFromLeft 2s ease-out forwards;
+}
+.divTxt{
+    text-align: center;
+    color:black;
+}
+
+body {
+    background-color:white;
+    background-image: url('###');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animated-h1 {
+    animation: slideInFromLeft 2s ease-out forwards;
+    color:black;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+ /* Regras gerais */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Regras para dispositivos móveis */
+@media (max-width: 575.98px) {
+  .container {
+    padding: 15px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .divTxt {
+    font-size: 14px;
+  }
+
+  .v2 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Regras para tablets */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    padding: 20px;
+  }
+
+  .col-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .divTxt {
+    font-size: 16px;
+  }
+
+  .v2 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Regras para desktops pequenos */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    padding: 30px;
+  }
+
+  .col-3 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .divTxt {
+    font-size: 18px;
+  }
+
+  .v2 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Regras para desktops médios */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    padding: 40px;
+  }
+
+  .col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .divTxt {
+    font-size: 20px;
+  }
+
+  .v2 {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Regras para desktops grandes */
+@media (min-width: 1200px) {
+  .container {
+    padding: 50px;
+  }
+
+  .col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .divTxt {
+    font-size: 22px;
+  }
+
+  .v2 {
+    width: 100%;
+    height: auto;
+  }
+}
+.terminaisdepagamento {
+  color: aliceblue;
+  padding: 6.5em 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./imagens/terminaisdepagamento.e784097f.png');
+
+}
+
+.div {
+  background-image: url('imagens/terminaispdvs.png');
+  padding: 6.5em 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textodadiv {
+  font-size: 20px;
+  margin-top: 1em;
+  width: 50%;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
